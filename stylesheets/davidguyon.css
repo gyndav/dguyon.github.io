@@ -34,17 +34,19 @@ a { color:#2787c2; }
 a.alt,a:hover{text-decoration:underline}
 h3,a.alt:hover{color:#999}
 h1{
-    font-family: 'Lekton', arial, serif;
-    font-size: 48px;
-    padding: 10px;
+    font-family: 'Ropa Sans', arial, serif;
+    font-size: 72px;
+    text-align: center;
+    line-height: 80px;
     -moz-transition-duration: 0.3s;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 h3,h1{font-weight:normal}
-h2{font:24px georgia normal;color:#444;margin:0 0 1.4em}
+h2{font:28px georgia normal;color:#444;margin:0 0 16px; font-family: 'Flamenco', cursive; }
+p { font-size: 16px; }
 .social-networks p,.about p,h3{margin:0 0 1em}
-.container{width:775px;margin:0 auto}
+.container{width:700px;margin:0 auto;}
 .curved{color:#fff;padding:1px 3px}
 
 .avatar {
@@ -103,3 +105,16 @@ p.tag-line { margin-left: 10px; margin-bottom: 10px; margin-top: 10px; }
 .social-networks a[href*="linkedin.com"] {
     background-image: url('http://www.google.com/profiles/c/favicons?domain=linkedin.com');
 }
+
+.about a[href*="plemi.com"] {
+    font-weight:bold;
+    padding-left: 20px;
+    background-color: transparent;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-indent: -9000px;
+    background-image: url('http://www.google.com/profiles/c/favicons?domain=plemi.com');
+}
+
+section.about { padding-left: 100px; position: relative;}
+p.profile { float: left; position: absolute; left: 0; margin: 10px 0;}
