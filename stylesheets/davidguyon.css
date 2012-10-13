@@ -14,6 +14,7 @@ table{border-collapse:collapse;border-spacing:0}
 h1 a,h1,a.alt,body{color:#252525}
 header{
     overflow: hidden;
+    text-align: center;
 }
 header, section {
     margin-bottom: 2em;
@@ -35,9 +36,8 @@ a.alt,a:hover{text-decoration:underline}
 h3,a.alt:hover{color:#999}
 h1{
     font-family: 'Ropa Sans', arial, serif;
-    font-size: 72px;
-    text-align: center;
-    line-height: 80px;
+    font-size: 48px;
+    line-height: 52px;
     -moz-transition-duration: 0.3s;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -46,11 +46,9 @@ h3,h1{font-weight:normal}
 h2{font:28px georgia normal;color:#444;margin:0 0 16px; font-family: 'Flamenco', cursive; }
 p { font-size: 16px; }
 .social-networks p,.about p,h3{margin:0 0 1em}
-.container{width:700px;margin:0 auto;}
 .curved{color:#fff;padding:1px 3px}
 
 .avatar {
-    opacity: 0.8;
     border: 1px solid #ccc;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -58,17 +56,14 @@ p { font-size: 16px; }
     -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
     -moz-box-shadow:0 0 10px rgba(0,0,0,0.4);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    -moz-transition-duration: 0.3s;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+    margin: 10px 0;
 }
-.avatar:hover { opacity: 1; }
 
 .curved.principle{background:#252525}
 .curved.status-ongoing{background:#9bb935;font-size:.7em}
 .social-networks p,.about p,.github p {line-height: 24px;}
 
-header p{ font-size:24px; margin-bottom:10px; }
+header p{ font-size:24px; margin-top: 10px; }
 header p { color: #888; }
 header a {
     -moz-transition-duration: 0.3s;
@@ -116,5 +111,31 @@ p.tag-line { margin-left: 10px; margin-bottom: 10px; margin-top: 10px; }
     background-image: url('http://www.google.com/profiles/c/favicons?domain=plemi.com');
 }
 
-section.about { padding-left: 100px; position: relative;}
-p.profile { float: left; position: absolute; left: 0; margin: 10px 0;}
+/* Large desktop */
+@media (min-width: 768px) {
+    .container {
+        width:700px;
+        margin:0 auto;
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+/*@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        padding : 0 20px;
+    }
+}*/
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .container {
+        padding : 0 20px;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .container {
+        padding : 0 10px;
+    }
+}
