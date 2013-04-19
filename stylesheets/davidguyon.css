@@ -91,14 +91,18 @@ p.tag-line { margin-left: 10px; margin-bottom: 10px; margin-top: 10px; }
     background-repeat: no-repeat;
     text-indent: -9000px;
 }
+
 .social-networks a[href*="github.com"] {
-    background-image: url('http://www.google.com/profiles/c/favicons?domain=github.com');
+    background-image: url('https://plus.google.com/_/favicon?domain=github.com');
 }
 .social-networks a[href*="twitter.com"] {
-    background-image: url('http://www.google.com/profiles/c/favicons?domain=twitter.com');
+    background-image: url('https://plus.google.com/_/favicon?domain=twitter.com');
 }
 .social-networks a[href*="linkedin.com"] {
-    background-image: url('http://www.google.com/profiles/c/favicons?domain=linkedin.com');
+    background-image: url('https://plus.google.com/_/favicon?domain=linkedin.com');
+}
+.social-networks a[href*="instagram.com"] {
+    background-image: url('https://plus.google.com/_/favicon?domain=instagram.com');
 }
 
 .about a[href*="plemi.com"] {
@@ -108,7 +112,7 @@ p.tag-line { margin-left: 10px; margin-bottom: 10px; margin-top: 10px; }
     background-position: left center;
     background-repeat: no-repeat;
     text-indent: -9000px;
-    background-image: url('http://www.google.com/profiles/c/favicons?domain=plemi.com');
+    background-image: url('https://plus.google.com/_/favicon?domain=plemi.com');
 }
 
 /* Large desktop */
